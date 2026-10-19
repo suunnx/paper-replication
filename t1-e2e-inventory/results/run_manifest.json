@@ -1,0 +1,140 @@
+{
+  "config": {
+    "history": 180,
+    "review_period": 7,
+    "lead_time": 5,
+    "hidden": 50,
+    "vlt_layers": [
+      50,
+      20
+    ],
+    "fusion_layers": [
+      100,
+      100
+    ],
+    "learning_rate": 0.001,
+    "learning_rate_decay": 0.0001,
+    "momentum": 0.85,
+    "batch_size": 64,
+    "dropout": 0.2,
+    "init_std": 0.01,
+    "quantiles": [
+      0.1,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "holding_cost": 1.0,
+    "stockout_cost": 9.0,
+    "auxiliary_weights": [
+      0.1,
+      0.1
+    ],
+    "epochs": 60,
+    "patience": 12,
+    "seed": 7,
+    "train_fraction": 1.0,
+    "train_end_fraction": 0.6,
+    "validation_end_fraction": 0.8,
+    "inventory_cover_fractions": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "evaluation_days": 30
+  },
+  "suite": "all",
+  "sku_count": 5,
+  "sales_days": 457,
+  "samples": {
+    "train": 180,
+    "validation": 180,
+    "test": 180
+  },
+  "python": "3.12.8",
+  "torch": "2.14.1",
+  "numpy": "2.5.4",
+  "code_sha256": {
+    "src/__init__.py": "72489a1a103140fe8969aaab582b2d7993398bb8a831effdf200e61ef7903bd8",
+    "src/data.py": "1fca0be184553a3d07c8ad6a77caee3cb4948163c563f25a3b85d7862e50ba6c",
+    "src/experiment.py": "d1434d829901557634575ed3f370836d2ad840d995ff2c580b7770464dbef740",
+    "src/inventory.py": "8f773ae7053cb55ca204a6c06c7e36c18e4079025cc2fcff382333714bd13d0a",
+    "src/network.py": "f003de4bd1316d690b268828cb153a1d5af7c3e7b0a5d6e36ba26fca535bd4ba",
+    "src/report.py": "db53fee1a76eaca22a91db8d03ffb82d90193c7fc4b4f852e96b7678e15488ec"
+  },
+  "bm1_validation_selected_channel": 0,
+  "bm2_validation_selected_channel": 0,
+  "bm1_validation_candidates": [
+    [
+      7649.467772165935,
+      0
+    ],
+    [
+      15054.438131243387,
+      1
+    ],
+    [
+      15029.460806948346,
+      3
+    ],
+    [
+      15037.400420290627,
+      4
+    ],
+    [
+      15036.729215723675,
+      5
+    ],
+    [
+      15026.347631746929,
+      6
+    ],
+    [
+      15038.286850458779,
+      7
+    ]
+  ],
+  "bm2_validation_candidates": [
+    [
+      7581.488065891264,
+      0
+    ],
+    [
+      8068.708121960956,
+      1
+    ],
+    [
+      7943.928092282612,
+      3
+    ],
+    [
+      7922.646634190876,
+      4
+    ],
+    [
+      7902.379945081074,
+      5
+    ],
+    [
+      7881.53789548238,
+      6
+    ],
+    [
+      7870.726660245258,
+      7
+    ]
+  ],
+  "architecture_run": "e2e_9c7a67d17d",
+  "bm1_run": "bm1_491d1aa450",
+  "bm2_run": "bm2_fc59a6f2b5",
+  "limitations": [
+    "fixed lead from one unlinked example",
+    "constructed stock states",
+    "five sales series only",
+    "full original 132-dimensional features missing",
+    "Section 5 intentionally excluded"
+  ]
+}

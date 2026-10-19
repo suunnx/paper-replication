@@ -1,0 +1,81 @@
+{
+  "checkpoints": [
+    {
+      "run": "e2e_9c7a67d17d",
+      "reload_exact": true
+    },
+    {
+      "run": "bm1_491d1aa450",
+      "reload_exact": true
+    },
+    {
+      "run": "bm2_fc59a6f2b5",
+      "reload_exact": true
+    },
+    {
+      "run": "e2e_de4a5ebfd0",
+      "reload_exact": true
+    },
+    {
+      "run": "e2e_0fc9ea91fb",
+      "reload_exact": true
+    },
+    {
+      "run": "e2e_6a2fdfea87",
+      "reload_exact": true
+    },
+    {
+      "run": "e2e_e2435cc59e",
+      "reload_exact": true
+    },
+    {
+      "run": "e2e_3678e47b10",
+      "reload_exact": true
+    },
+    {
+      "run": "e2e_8590f92a76",
+      "reload_exact": true
+    },
+    {
+      "run": "e2e_3ef57cd4a5",
+      "reload_exact": true
+    },
+    {
+      "run": "e2e_ac69eea390",
+      "reload_exact": true
+    },
+    {
+      "run": "e2e_36b02c68bc",
+      "reload_exact": true
+    },
+    {
+      "run": "e2e_8ab72bf186",
+      "reload_exact": true
+    },
+    {
+      "run": "e2e_34bd3f2362",
+      "reload_exact": true
+    },
+    {
+      "run": "e2e_2715701f1f",
+      "reload_exact": true
+    },
+    {
+      "run": "e2e_3e20ad01d9",
+      "reload_exact": true
+    },
+    {
+      "run": "e2e_37d0fed457",
+      "reload_exact": true
+    },
+    {
+      "run": "e2e_941d2e8fca",
+      "reload_exact": true
+    },
+    {
+      "run": "e2e_37ea2e796c",
+      "reload_exact": true
+    }
+  ],
+  "oracle_bounds_pass": true
+}

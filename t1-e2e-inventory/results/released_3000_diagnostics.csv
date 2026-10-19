@@ -1,0 +1,5 @@
+model,n,order_mae,order_rmse,inventory_cost_available,source
+E2E_RNN_pred,3000,171.160605267,394.5096223644553,False,author_prediction
+gbm_pred,3000,129.2226458518988,295.9416325770207,False,author_prediction
+Normal_eq7,3000,430.3168987484198,1504.9004208975575,False,equation_implementation
+Gamma_eq8,3000,448.2442563750046,1522.7018622940452,False,equation_implementation
